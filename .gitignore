@@ -1,0 +1,20 @@
+# Ignores Python's bytecode cache directories
+__pycache__/
+
+# Ignores compiled Python bytecode files.
+*.pyc
+
+# Ignores a directory likely used for machine learning model weights.
+saved_weights/
+
+# Ignores VS Code's project settings.
+.vscode/
+
+# Ignores files created by Python's pickle serialization.
+*.pkl
+
+# Effectively ignores macOS folder metadata files in all subdirectories.
+**/.DS_Store
+
+# Ignores IntelliJ IDEA project settings.
+.idea/
